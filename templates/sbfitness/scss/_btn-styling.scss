@@ -1,0 +1,159 @@
+/* BUTTON UL CSS */
+.ul-btns {
+  list-style: none;
+  margin: 0;
+  padding: 20px 0;
+}
+.ul-btns-horizontal {
+  list-style: none;
+  margin: 0;
+  padding: 20px 0;
+  text-align: center;
+
+  li {
+    display: inline-block;
+    margin: 6px;
+  }
+}
+
+/* GENERAL BUTTON CSS */
+.btn-general-styling {
+  text-transform: uppercase;
+  display: inline-block;
+  -webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+  border: none;
+
+  &:hover, &:focus {
+    text-decoration: none;
+  }
+}
+.btn {
+  @extend .btn-general-styling;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  padding: 6px 12px !important;
+}
+.btn-dark-btn {
+  color: #ffffff !important;
+
+  &:hover, &:focus {
+    color: #ffffff !important;
+  }
+}
+.btn-primary {
+  @extend .btn, .btn-dark-btn;
+  background: $brand-primary !important;
+
+  &:hover, &:focus {
+    background: $brand-primary-dark !important;
+  }
+}
+.btn-green {
+  @extend .btn, .btn-dark-btn;
+  background: $brand-green !important;
+
+  &:hover, &:focus {
+    background: $brand-green-dark !important;
+  }
+}
+.btn-blue {
+  @extend .btn, .btn-dark-btn;
+  background: $brand-blue !important;
+
+  &:hover, &:focus {
+    background: $brand-blue-dark !important;
+  }
+}
+.btn-orange {
+  @extend .btn, .btn-dark-btn;
+  background: $brand-orange !important;
+
+  &:hover, &:focus {
+    background: $brand-orange-dark !important;
+  }
+}
+.btn-white {
+  @extend .btn;
+  background: #ffffff !important;
+  color: $brand-primary !important;
+
+  &:hover, &:focus {
+    background: $grey-bg-light !important;
+  }
+}
+
+
+/* BTN LARGE */
+.btn-lg {
+  @extend .btn;
+  font-size: $content-font + 1;
+  padding: 7px 16px !important;
+}
+@media (min-width: $screen-md-min) {
+
+  .btn-lg {
+    font-size: $content-font + 2;
+    padding: 9px 20px !important;
+  }
+}
+@media (min-width: $screen-lg-min) {
+
+  .btn-lg {
+    font-size: $content-font + 3;
+  }
+}
+
+
+
+/* INPUT STYLING */
+.input {
+  padding: 7px 12px;
+  font-size: $content-font;
+  color: #555;
+  background-color: #FFF;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  box-shadow: none;
+}
+.input-no-border {
+  border: none;
+}
+.form-control {
+  height: auto;
+
+  @extend .input;
+}
+input[type="radio"], input[type="checkbox"] {
+  margin-top: 4px;
+}
+::-webkit-input-placeholder {
+    text-transform: uppercase;
+}
+:-moz-placeholder { /* Firefox 18- */
+    text-transform: uppercase;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    text-transform: uppercase;
+}
+:-ms-input-placeholder {
+    text-transform: uppercase;
+}
+input:-moz-placeholder {
+    text-transform: uppercase;
+}
+@media (min-width: $screen-md-min) {
+
+  .input {
+    padding: 8px 12px;
+    font-size: $content-font + 1;
+  }
+  input[type="radio"], input[type="checkbox"] {
+    margin-top: 6px;
+  }
+}

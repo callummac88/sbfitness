@@ -1,0 +1,200 @@
+body {
+	font-family: $font-family-main;
+	font-size: $content-font;
+	font-weight: 400;
+
+	a {
+		color: $brand-primary;
+
+		&:hover, &:focus {
+      color: $brand-primary-dark;
+			text-decoration: none;
+		}
+	}
+}
+p {
+  font-size: $content-font;
+  line-height: 150%;
+  font-family: $font-family-main;
+	font-weight: normal;
+}
+.lead {
+	line-height: 150%;
+  font-size: $content-font + 1 !important;
+	font-weight: bold;
+}
+.banner-title {
+  font-size: $banner-title !important;
+	line-height: 120%;
+	margin-bottom: 10px;
+}
+.banner-sub-title {
+	font-size: $banner-sub-title !important;
+	line-height: 124%;
+}
+h1.itemTitle, h1, div.itemHeader h2.itemTitle, div.itemListCategory h2, div.catItemHeader h3.catItemTitle {
+	font-size: $header-1 !important;
+	line-height: 126%;
+	font-weight: bold;
+}
+h2 {
+  font-size: $header-2 !important;
+	font-weight: bold;
+}
+h3 {
+  font-size: $header-3 !important;
+	font-weight: bold;
+}
+h4 {
+  font-size: $header-4 !important;
+	font-weight: normal;
+}
+h5 {
+  font-size: $header-5 !important;
+	font-weight: normal;
+}
+h2, h3, h4, h5 {
+	line-height: 122%;
+}
+.font-blue {
+	color: $brand-blue;
+}
+.font-green {
+	color: $brand-green;
+}
+.font-green-light {
+	color: $brand-green-light;
+}
+.font-orange {
+	color: $brand-orange;
+}
+
+@media (min-width: $screen-xs-min) {
+
+	.banner-title {
+	  font-size: $banner-title-xs !important;
+	}
+	.banner-sub-title {
+	  font-size: $banner-sub-title-xs !important;
+	}
+  h1.itemTitle, h1, div.itemHeader h2.itemTitle, div.itemListCategory h2, div.catItemHeader h3.catItemTitle {
+      font-size: $header-1-xs !important;
+  }
+  h2 {
+      font-size: $header-2-xs !important;
+  }
+  h3 {
+      font-size: $header-3-xs !important;
+  }
+  h4 {
+      font-size: $header-4-xs !important;
+  }
+  h5 {
+      font-size: $header-5-xs !important;
+  }
+}
+@media (min-width: $screen-sm-min) {
+
+	.banner-title {
+	  font-size: $banner-title-sm !important;
+	}
+	.banner-sub-title {
+	  font-size: $banner-sub-title-sm !important;
+	}
+  h1.itemTitle, h1, div.itemHeader h2.itemTitle, div.itemListCategory h2, div.catItemHeader h3.catItemTitle {
+      font-size: $header-1-sm !important;
+  }
+  h2 {
+      font-size: $header-2-sm !important;
+  }
+  h3 {
+      font-size: $header-3-sm !important;
+  }
+  h4 {
+      font-size: $header-4-sm !important;
+  }
+  h5 {
+      font-size: $header-5-sm !important;
+  }
+}
+@media (min-width: $screen-md-min) {
+
+	.banner-title {
+	  font-size: $banner-title-md !important;
+	}
+	.banner-sub-title {
+	  font-size: $banner-sub-title-md !important;
+	}
+  h1.itemTitle, h1, div.itemHeader h2.itemTitle, div.itemListCategory h2, div.catItemHeader h3.catItemTitle {
+      font-size: $header-1-md !important;
+  }
+  h2 {
+      font-size: $header-2-md !important;
+  }
+  h3 {
+      font-size: $header-3-md !important;
+  }
+  h4 {
+      font-size: $header-4-md !important;
+  }
+  h5 {
+      font-size: $header-5-md !important;
+  }
+}
+@media (min-width: $screen-lg-min) {
+
+  body, p {
+    font-size: $content-font + 2;
+  }
+	.lead {
+	  font-size: $content-font + 4 !important;
+	}
+	.banner-title {
+	  font-size: $banner-title-lg !important;
+	}
+	.banner-sub-title {
+	  font-size: $banner-sub-title-lg !important;
+	}
+  h1.itemTitle, h1, div.itemHeader h2.itemTitle, div.itemListCategory h2, div.catItemHeader h3.catItemTitle {
+    font-size: $header-1-lg !important;
+  }
+  h2 {
+    font-size: $header-2-lg !important;
+  }
+  h3 {
+    font-size: $header-3-lg !important;
+  }
+  h4 {
+    font-size: $header-4-lg !important;
+  }
+  h5 {
+    font-size: $header-5-lg !important;
+  }
+}
+@media (min-width: $screen-xlg-min) {
+
+	.banner-title {
+	  font-size: $banner-title-xlg !important;
+	}
+	.banner-sub-title {
+	  font-size: $banner-sub-title-xlg !important;
+	}
+  h1.itemTitle, h1, div.itemHeader h2.itemTitle, div.itemListCategory h2, div.catItemHeader h3.catItemTitle {
+    font-size: $header-1-xlg !important;
+  }
+  h2 {
+    font-size: $header-2-xlg !important;
+  }
+  h3 {
+    font-size: $header-3-xlg !important;
+  }
+  h4 {
+    font-size: $header-4-xlg !important;
+  }
+  h5 {
+    font-size: $header-5-xlg !important;
+  }
+}
+.h2-h1 {
+	@extend h1;
+}

@@ -1,0 +1,263 @@
+/* BANNER BUTTONS */
+.banner-image-bg {
+
+	ul {
+		@extend .ul-btns-horizontal;
+		padding-bottom: 0;
+
+		li {
+
+			a {
+				@extend .btn-lg;
+			}
+		}
+	}
+}
+
+
+
+/* BANNER HEADERS - ON IMAGE OVERLAYS */
+.h1-image-overlays {
+	@extend .banner-title;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 0 0 5px 0;
+	padding: 0;
+	line-height: 108%;
+
+	span {
+		background-color: $carousel-text-bg;
+		padding: 9px 20px;
+		display: inline-block;
+		border: 1px solid #ffffff;
+	}
+}
+.p-image-overlays {
+	@extend .banner-sub-title;
+	background-color: $carousel-sub-text-bg;
+	font-weight: bold;
+	display: none;
+	border: 1px solid #ffffff;
+	padding: 8px 12px;
+	margin: 0;
+}
+@media (min-width: $screen-xs-min) {
+
+	.p-image-overlays {
+		padding: 6px 18px;
+		display: inline-block;
+	}
+}
+@media (min-width: $screen-md-min) {
+
+	.h1-image-overlays {
+		margin-bottom: 8px;
+
+		span {
+			padding: 10px 22px;
+		}
+	}
+	.banner-image-bg .moduletable {
+		padding-left: 9% !important;
+		padding-right: 9% !important;
+
+		.p-image-overlays {
+			margin-left: 10%;
+			margin-right: 10%;
+		}
+	}
+}
+@media (min-width: $screen-lg-min) {
+
+	.h1-image-overlays {
+
+		span {
+			padding: 12px 35px;
+		}
+	}
+}
+
+
+
+/* BANNER STYLING */
+.no-banner,
+.banner-bg,
+.banner-image-bg {
+	margin-top: $header-height !important;
+}
+.banner-image-bg,
+.banner-bg {
+	background: $banner-bg;
+	color: $banner-text-colour;
+}
+.banner-image-bg {
+	height: $banner-height;
+	padding: ($banner-padding-top-img * 3) 0 $banner-padding-top-img 0;
+	text-align: center;
+	position: relative;
+
+	h1 {
+		@extend .h1-image-overlays;
+	}
+	p {
+		@extend .p-image-overlays;
+		display: inline-block;
+	}
+}
+.banner-bg {
+	padding: $banner-padding-top 0;
+
+	h1, h2, h3, h4, h5, h6, p, ul {
+		color: $banner-text-colour;
+	}
+	h1 {
+		@extend .banner-title;
+		margin: 10px 0;
+	}
+	p {
+		@extend .lead;
+	}
+	p.banner-title, p.banner-sub-title {
+		font-weight: normal;
+	}
+	p.banner-title {
+		@extend .banner-title;
+	}
+	p.banner-sub-title {
+		@extend .banner-sub-title;
+	}
+}
+
+/* BANNER IMAGE BGS */
+body.default .banner-image-bg {
+	background-image: url(/images/banners/mobile/banner-default.jpg);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+@media (min-width: $screen-xs-min) {
+
+	.banner-image-bg {
+		height: $banner-height-xs;
+		padding: 0;
+
+		.banner-image-container {
+			position: absolute;
+			bottom: 15px;
+			left: 0;
+			right: 0;
+		}
+	}
+	.banner-bg {
+		padding: $banner-padding-top-xs 0;
+	}
+
+	/* BANNER IMAGE BGS */
+	body.default .banner-image-bg {
+		background-image: url(/images/banners/xs/banner-default-xs.jpg);
+	}
+}
+@media (min-width: $screen-sm-min) {
+
+	.banner-image-bg {
+		height: $banner-height-sm;
+	}
+	.banner-bg {
+		padding: $banner-padding-top-sm 0;
+	}
+
+	/* BANNER IMAGE BGS */
+	body.default .banner-image-bg {
+		background-image: url(/images/banners/sm/banner-default-sm.jpg);
+	}
+}
+@media (min-width: $screen-md-min) {
+
+	.no-banner,
+	.banner-bg,
+	.banner-image-bg {
+		margin-top: $header-height-md !important;
+	}
+	.banner-image-bg {
+		height: $banner-height-md;
+		position: relative;
+
+		.banner-image-container {
+			bottom: 60px;
+		}
+	}
+	.banner-bg {
+		padding: $banner-padding-top-md 0;
+	}
+
+	/* BANNER IMAGE BGS */
+	body.default .banner-image-bg {
+		background-image: url(/images/banners/md/banner-default-md.jpg);
+	}
+}
+@media (min-width: $screen-lg-min) {
+
+	.banner-image-bg {
+		height: $banner-height-lg;
+	}
+	.banner-bg {
+		padding: $banner-padding-top-lg 0;
+	}
+
+	/* BANNER IMAGE BGS */
+	body.default .banner-image-bg {
+		background-image: url(/images/banners/lg/banner-default-lg.jpg);
+	}
+}
+@media (min-width: $screen-xlg-min) {
+
+	.banner-image-bg {
+		height: $banner-height-xlg;
+		background-size: cover;
+	}
+	.banner-bg {
+		padding: $banner-padding-top-xlg 0;
+	}
+
+	/* BANNER IMAGE BGS */
+	body.default .banner-image-bg {
+		background-image: url(/images/banners/xlg/banner-default-xlg.jpg);
+	}
+}
+
+
+/* ### BANNER IMAGES ### */
+
+@media (min-width: $screen-xs-min) {
+
+}
+@media (min-width: $screen-sm-min) {
+
+
+}
+@media (min-width: $screen-md-min) {
+
+    .banner-bg {
+        background:url('../images/banner/runner-high.png') no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+ }
+    
+    .moduletable.home-banner {
+        float: right;
+        //background:rgba(135,206,235,0.8);
+        background:rgba(51,51,51,0.9);
+        padding: 20px 30px 20px 30px;
+        width: 35%;
+        text-align: center;
+    }
+
+}
+@media (min-width: $screen-lg-min) {
+ 
+
+}
+@media (min-width: $screen-xlg-min) {
+
+	
+}

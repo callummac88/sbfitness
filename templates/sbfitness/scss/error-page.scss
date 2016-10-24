@@ -1,0 +1,77 @@
+@import "bootstrap";
+@import "config";
+@import "btn-styling";
+@import "fonts";
+
+html {
+   min-height:100%;
+}
+.body-background {
+	background: $grey-bg-border;
+	padding: 20px 0;
+	font-size: $content-font;
+  font-family: $font-family-main;
+
+	p {
+    font-family: $font-family-main;
+	}
+}
+.error-box-container {
+
+	.error-padding {
+    border: 1px solid $grey-bg-border;
+		padding:30px 15px;
+		text-align:center;
+		background-color: #ffffff;
+		background-color: rgba(255, 255, 255, 0.9);
+
+		ul {
+			list-style:none;
+			margin:0 0 20px 0;
+			padding:0;
+
+			li {
+				padding:2px 0;
+				margin:0;
+				font-weight:bold;
+			}
+		}
+	}
+	.img-responsive {
+		margin:0 auto;
+	}
+	.large-text {
+		font-size: $content-font + 5;
+		line-height:120%;
+		margin-bottom:20px;
+		font-weight:bold;
+	}
+  h1 {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: $screen-sm-min) {
+
+	.body-background {
+		background: $grey-bg-vdark url(../images/error-bg.jpg) 50% 100% no-repeat;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		padding: 50px 0;
+		font-size: 17px;
+	}
+	.error-box-container {
+
+		.error-padding {
+			padding: 30px;
+		}
+    .large-text {
+  		font-size: $content-font + 18;
+  	}
+    h1 {
+      font-size: 36px;
+    }
+	}
+}

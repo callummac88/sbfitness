@@ -1,0 +1,147 @@
+/* CONTENT */
+.content-bg {
+  padding: $layer-padding 0;
+}
+body.page-home .content-bg {
+  text-align: center;
+}
+
+body.home-page .content-bg {
+    display:none;
+}
+
+.moduletable.home-bio h1 {
+    border-bottom:solid 4px #333;
+    display:inline-block;
+    padding-bottom:5px;
+    text-transform: uppercase;
+}
+
+.moduletable.home-bio h3 {
+    text-align: justify;
+    font-size:16px!important;
+}
+
+.moduletable.home-bio .bio-image {
+    text-align: center;
+}
+
+.section-1 .slide-in-demo {
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    font-size: 4em;
+}
+
+.pricing-box .moduletable {
+    background-color:#333333;
+    padding:50px 20px 50px 20px;
+    color:#ffffff;
+    margin-top:50px;
+    margin-bottom:50px;
+    text-align: center;
+}
+
+.small-h1 {
+    font-size:14px!important;
+}
+
+.cta-box .moduletable {
+    background:silver;
+    padding:200px 0px 0px 0px;
+    margin-bottom:50px;
+}
+
+.cta-box .moduletable p {
+    background:rgba(51,51,51,0.9);
+    color:#ffffff;
+    padding:20px;
+    font-size:18px;
+    text-transform: uppercase;
+}
+
+.faqs-box .moduletable {
+    background:url('../images/background/ctas/faqs-bg.jpg') no-repeat;
+    background-size:100%;
+}
+.blog-box .moduletable {
+    background:url('../images/background/ctas/blog-bg.jpg') no-repeat;
+    background-size:100%;
+    background-position: 50% 50%;
+}
+
+
+@media (min-width: $screen-xs-min) {
+
+  .content-bg {
+    padding: $layer-padding-xs 0;
+  }
+}
+@media (min-width: $screen-sm-min) {
+
+  .content-bg {
+    padding: $layer-padding-sm 0;
+  }
+}
+@media (min-width: $screen-md-min) {
+
+  .content-bg {
+    padding: $layer-padding-md 0;
+  }
+    
+  .home-bio-bg {
+      background-color:#ffffff;
+      padding-top:40px;
+  }
+.moduletable.home-bio .bio-text {
+    padding-top:50px;
+    padding-bottom:100px;
+}
+    .moduletable.home-bio h1 {
+   font-size:22px!important;
+}
+        
+    .testimonial-bg {
+       background:url('../images/background/testimonial-bg.png') no-repeat;
+        background-attachment: fixed;
+        background-size:cover;
+        padding-top:150px;
+        padding-bottom:150px;
+    }
+    .moduletable.testimonial {
+        width:30%;
+        float:right;
+        text-align: right;
+        color:#ffffff;
+        font-size:20px;
+        font-style: italic;
+    }
+
+}
+@media (min-width: $screen-lg-min) {
+
+  .content-bg {
+    padding: $layer-padding-lg 0;
+  }
+}
+@media (min-width: $screen-xlg-min) {
+
+  .content-bg {
+    padding: $layer-padding-xlg 0;
+  }
+}
+
+
+
+
+
+/* K2 STYLING */
+.itemBackToTop {
+  display: none;
+}
+#k2Container.itemView {
+  padding: 0;
+  margin: 0;
+}

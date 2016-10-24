@@ -1,0 +1,244 @@
+/* HEADER */
+.header-bg {
+	background-color: $brand-secondary;
+    border:none!important;
+}
+
+
+
+/* LOGO */
+.col-logo {
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+.col-logo img {
+    height:70px;
+    margin-top:5px;
+}
+
+@media (min-width: $screen-md-min) {
+
+	.col-logo {
+		margin-top: 12px;
+		margin-left: 0;
+	}
+}
+
+
+
+/* NAVBAR */
+.navbar-toggle {
+	background-color: $brand-primary;
+	color: #ffffff;
+	border: none;
+	margin-top: $menu-dropdown-toggle;
+	margin-bottom: $menu-dropdown-toggle;
+
+	.icon-bar {
+		background-color: #ffffff !important;
+	}
+}
+.caret {
+	margin-left: 5px;
+}
+.navbar-nav {
+	margin-left: 0;
+	margin-right: 0;
+}
+.navbar-default {
+
+	.main-nav {
+
+		li {
+			margin: 3px 0;
+
+			a {
+				font-size: $menu-font;
+				font-weight: 200;
+				background: $main-menu-bg;
+				color: $main-menu-text;
+
+				&:hover, &:focus {
+					background: $main-menu-bg-hover;
+			  	color: $brand-primary;
+			  	transition: all 300ms ease-in 0s;
+				}
+			}
+		}
+		.active {
+
+			a {
+				background: $main-menu-bg-active;
+				color: $main-menu-text-active;
+
+				&:hover, &:focus {
+					background: $main-menu-bg-active;
+					color: $main-menu-text-active;
+				}
+			}
+			.dropdown-menu {
+				display: block;
+				position: relative;
+				top: auto;
+				left: auto;
+				float: none;
+				box-shadow: none;
+				border: none;
+				border-radius: 0;
+				margin: 0;
+				padding: 0;
+
+				a {
+					font-size: $menu-font;
+					margin: 0;
+					padding: 6px 15px;
+					background: $main-sub-menu-bg;
+					color: $main-sub-menu-text;
+
+					&:hover, &:focus {
+						background: $main-sub-menu-bg-active;
+						color: $main-sub-menu-text-active;
+					}
+				}
+				.active {
+
+					a {
+						background: $main-sub-menu-bg-active;
+						color: $main-sub-menu-text-active;
+
+						&:hover, &:focus {
+							background: $main-sub-menu-bg-active;
+							color: $main-sub-menu-text-active;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media (min-width: $screen-md-min) {
+
+	.navbar-default {
+
+		.main-nav {
+			padding-top: 33px;
+			padding-bottom: 10px;
+
+			ul {
+				float: right !important;
+			}
+			li {
+				margin: 0;
+
+				a {
+					font-size: $menu-font-md;
+					padding: 10px 0;
+					margin: 0 $menu-gap-md 0 0;
+					background: none;
+					color: $brand-silver;
+
+					&:hover, &:focus {
+						background: none;
+						color: $main-menu-text-hover-md;
+					}
+				}
+			}
+			li:last-child {
+
+				a {
+					margin-right: 0;
+				}
+			}
+			li, .active {
+
+				.dropdown-menu {
+					position: absolute;
+			    	top: 100%;
+			    	left: 0;
+			    	z-index: 1000;
+			    	display: none;
+			    	float: left;
+			    	min-width: 160px;
+			    	padding: 5px 0;
+			    	margin: 0;
+			    	list-style: none;
+			    	text-align: left;
+			    	background-color: #fff;
+			    	border: 1px solid #ccc;
+			    	border: 1px solid rgba(0,0,0,0.15);
+			    	border-radius: 4px;
+			    	-webkit-box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+			    	box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+			    	background-clip: padding-box;
+
+					a {
+						font-size: $menu-font-md;
+						margin: 0;
+						padding: 6px 15px;
+						color: $main-menu-text-md;
+						background: none;
+
+						&:hover, &:focus {
+							background: none;
+							color: $main-menu-text-active-md;
+						}
+					}
+					.active {
+
+						a {
+							background: none;
+							color: $main-menu-text-active-md;
+
+							&:hover, &:focus {
+								background: none;
+								color: $main-menu-text-active-md;
+							}
+						}
+					}
+					.caret {
+						display: none;
+					}
+				}
+			}
+			.active {
+
+				a {
+					background: none;
+					color: $main-menu-text-active-md;
+
+					&:hover, &:focus {
+						background: none;
+						color: $main-menu-text-active-md;
+					}
+				}
+			}
+			.parent {
+
+				&:hover, &:focus {
+
+					.dropdown-menu {
+			    		display: block;
+					}
+				}
+			}
+		}
+	}
+}
+@media (min-width: $screen-lg-min) {
+
+	.navbar-default {
+
+		.main-nav {
+
+			li {
+
+				a {
+					font-size: $menu-font-lg;
+					padding: 10px 0;
+					margin: 0 $menu-gap-lg 0 0;
+				}
+			}
+		}
+	}
+}

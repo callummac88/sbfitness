@@ -1,0 +1,183 @@
+/* MIN MAX WIDTHS */
+$screen-xlg-min: 1600px;
+$screen-xxlg-min: 2200px;
+
+
+/* COLOURS */
+$brand-primary: #87ceeb;
+$brand-secondary: #333333;
+$brand-silver: #cccccc;
+
+$brand-primary-dark: darken($brand-primary, 20%);
+$brand-primary-rgba: rgba($brand-primary, 0.6);
+$brand-blue: #29a5dc;
+$brand-blue-light: lighten($brand-blue, 20%);
+$brand-blue-dark: darken($brand-blue, 20%);
+$brand-blue-rgba: rgba($brand-blue, 0.6);
+$brand-green: #119689;
+$brand-green-light: lighten($brand-green, 55%);
+$brand-green-dark: darken($brand-green, 20%);
+$brand-green-rgba: rgba($brand-green, 0.75);
+$brand-orange: #ff3100;
+$brand-orange-rgba: rgba($brand-orange, 0.3);
+$brand-orange-dark: darken($brand-orange, 20%);
+$brand-orange-light: lighten($brand-orange, 20%);
+$brand-orange-vlight: lighten($brand-orange, 30%);
+$grey-bg-vvlight: #f9f9f9;
+$grey-bg-vlight: #f4f4f4;
+$grey-bg-light: #E3E3E3;
+$grey-bg-medium: #999999;
+$grey-bg-medium-rgba: rgba($grey-bg-medium, 0.6);
+$grey-bg-border: #DADADA;
+$grey-bg-border-rgba: rgba($grey-bg-border, 0.3);
+$grey-bg-dark: #333333;
+$grey-bg-dark-rgba: rgba($grey-bg-dark, 0.5);
+$grey-bg-vdark: #1D1D1B;
+
+
+/* BANNER HEIGHT */
+$banner-height: auto;
+$banner-height-carousel: 300px;
+$banner-height-xs: 380px;
+$banner-height-sm: 420px;
+$banner-height-md: 490px;
+$banner-height-lg: 550px;
+$banner-height-xlg: 620px;
+
+
+/* BANNER PADDING WITHOUT IMAGE */
+$banner-padding-top: 50px;
+$banner-padding-top-xs: 60px;
+$banner-padding-top-sm: 70px;
+$banner-padding-top-md: 160px;
+$banner-padding-top-lg: 200px;
+$banner-padding-top-xlg: 240px;
+
+
+/* BANNER PADDING WITH IMAGE */
+$banner-padding-top-img: 30px;
+$banner-padding-top-img-xs: 95px;
+$banner-padding-top-img-sm: 95px;
+$banner-padding-top-img-md: 130px;
+$banner-padding-top-img-lg: 150px;
+$banner-padding-top-img-xlg: 210px;
+
+
+/* BANNER COLOURS */
+$banner-bg: $brand-primary;
+$banner-text-colour: #ffffff;
+
+
+/* CAROUSEL STYLING */
+$carousel-text-bg: $brand-primary-rgba;
+$carousel-sub-text-bg: $grey-bg-dark-rgba;
+$carousel-dots-colour: $brand-orange-rgba;
+$carousel-dots-colour-active: $brand-orange;
+
+
+/* CONTENT FONTS */
+$content-font: 14px;
+$font-family-main: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+
+/* MENU FONT SIZES */
+$menu-font: 15px;
+$menu-font-md: 16px;
+$menu-font-lg: 18px;
+
+
+/* MENU BUTTON MOBILE BACKGROUND COLOUR */
+$main-menu-bg: $grey-bg-vlight;
+$main-menu-bg-active: $grey-bg-medium;
+$main-menu-bg-hover: $grey-bg-vvlight;
+$main-menu-text: $grey-bg-vdark;
+$main-menu-text-active: #ffffff;
+$main-sub-menu-bg: $brand-primary;
+$main-sub-menu-bg-active: $grey-bg-vdark;
+$main-sub-menu-text: #ffffff;
+$main-sub-menu-text-active: #ffffff;
+
+
+/* MENU ACTIVE LINK COLOUR - WHEN AT MD SIZE */
+$main-menu-text-md: $grey-bg-vdark;
+$main-menu-text-active-md: $brand-primary;
+$main-menu-text-hover-md: $brand-primary;
+
+
+/* MENU SPACING */
+$menu-gap-md: 16px;
+$menu-gap-lg: 22px;
+
+
+/* MENU TOGGLE DROPDOWN MARGIN TOP AND BOTTOM */
+$menu-dropdown-toggle: 15px;
+
+
+/* HEADER HEIGHT */
+$header-height: 60px;
+$header-height-md: 90px;
+
+
+/* LAYER PADDING */
+$layer-padding: 30px;
+$layer-padding-xs: 35px;
+$layer-padding-sm: 40px;
+$layer-padding-md: 44px;
+$layer-padding-lg: 50px;
+$layer-padding-xlg: 60px;
+
+
+
+/* HEADERS */
+$header-1: 21px;
+$header-2: 18px;
+$header-3: 17px;
+$header-4: 16px;
+$header-5: 15px;
+$banner-title: 22px;
+$banner-sub-title: $header-2;
+
+/* HEADERS XS */
+$header-1-xs: 25px;
+$header-2-xs: 21px;
+$header-3-xs: 18px;
+$header-4-xs: 16px;
+$header-5-xs: 15px;
+$banner-title-xs: 29px;
+$banner-sub-title-xs: $header-2-xs;
+
+/* HEADERS SM */
+$header-1-sm: 27px;
+$header-2-sm: 23px;
+$header-3-sm: 20px;
+$header-4-sm: 16px;
+$header-5-sm: 15px;
+$banner-title-sm: 32px;
+$banner-sub-title-sm: $header-2-sm;
+
+/* HEADERS MD */
+$header-1-md: 31px;
+$header-2-md: 25px;
+$header-3-md: 21px;
+$header-4-md: 16px;
+$header-5-md: 15px;
+$banner-title-md: 39px;
+$banner-sub-title-md: $header-2-md;
+
+/* HEADERS LG */
+$header-1-lg: 39px;
+$header-2-lg: 26px;
+$header-3-lg: 23px;
+$header-4-lg: 17px;
+$header-5-lg: 16px;
+$banner-title-lg: 45px;
+$banner-sub-title-lg: $header-2-lg;
+
+/* HEADERS XLG */
+$header-1-xlg: 41px;
+$header-2-xlg: 28px;
+$header-3-xlg: 24px;
+$header-4-xlg: 19px;
+$header-5-xlg: 17px;
+$banner-title-xlg: 47px;
+$banner-sub-title-xlg: $header-2-xlg;

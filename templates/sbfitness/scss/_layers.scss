@@ -1,0 +1,47 @@
+/* PRIMARY LAYER BELOW CONTENT */
+.primary-layer-bg  {
+  background-color: $brand-primary;
+  color: #ffffff;
+  text-align: center;
+  padding: $layer-padding 0;
+
+  h3 {
+    @extend h2;
+  }
+  .lead {
+    @extend h2;
+  }
+  p {
+    @extend h4;
+  }
+}
+@media (min-width: $screen-xs-min) {
+
+  .primary-layer-bg {
+    padding: $layer-padding-xs 0;
+  }
+}
+@media (min-width: $screen-sm-min) {
+
+  .primary-layer-bg {
+    padding: $layer-padding-sm 0;
+  }
+}
+@media (min-width: $screen-md-min) {
+
+  .primary-layer-bg {
+    padding: $layer-padding-md 0;
+  }
+}
+@media (min-width: $screen-lg-min) {
+
+  .primary-layer-bg {
+    padding: $layer-padding-lg 0;
+  }
+}
+@media (min-width: $screen-xlg-min) {
+
+  .primary-layer-bg {
+    padding: $layer-padding-xlg 0;
+  }
+}
