@@ -226,6 +226,8 @@ body.default .banner-image-bg {
 }
 
 
+
+
 /* ### BANNER IMAGES ### */
 
 @media (min-width: $screen-xs-min) {
@@ -237,7 +239,7 @@ body.default .banner-image-bg {
 }
 @media (min-width: $screen-md-min) {
 
-    .banner-bg {
+   body.home-page .banner-bg {
         background:url('../images/banner/runner-high.png') no-repeat;
         background-size: cover;
         background-attachment: fixed;
@@ -251,6 +253,13 @@ body.default .banner-image-bg {
         width: 35%;
         text-align: center;
     }
+    
+    body.blog-page .banner-bg {
+    background:url('../images/banner/blog-banner.png') no-repeat;
+    background-size: cover;
+    margin-top:100px!important;
+    padding:140px 0px!important;
+ }
 
 }
 @media (min-width: $screen-lg-min) {

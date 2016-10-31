@@ -38,7 +38,7 @@ unset($doc->_scripts[JURI::root(true) . '/media/jui/js/bootstrap.min.js']);
         </script>
 
         <?php
-        if($this->countModules('left')){ $contentspanwidth="col-sm-8 col-sm-push-4";}
+        if($this->countModules('left')){ $contentspanwidth="col-sm-9 col-sm-push-3";}
         if($this->countModules('left-wide')){ $contentspanwidth="col-sm-6 col-sm-push-6";}
         if(!$this->countModules('left') && !$this->countModules('left-wide')){ $contentspanwidth="col-sm-12";}
         ?>
@@ -104,6 +104,7 @@ unset($doc->_scripts[JURI::root(true) . '/media/jui/js/bootstrap.min.js']);
             </div>
         </div>
         <?php }?>
+            
         
         <?php if($this->countModules("home-bio")){ ?>
         <div class="home-bio-bg">
@@ -170,11 +171,11 @@ unset($doc->_scripts[JURI::root(true) . '/media/jui/js/bootstrap.min.js']);
         <div class="content-bg <?php if(!$this->countModules("banner") && !$this->countModules('banner-with-image-bg') && !$this->countModules('slide-active')){ ?>no-banner<?php }?>">
             <div class="container">
                 <div class="row">
-                    <div class="<?php echo $contentspanwidth; ?>">
+                    <div class="<?php echo $contentspanwidth; ?> content">
                         <jdoc:include type="component" />
                     </div>
                     <?php if($this->countModules("left")){ ?>
-                    <div class="col-sm-4 col-sm-pull-8 col-left">
+                    <div class="col-sm-3 col-sm-pull-9 col-left">
                         <jdoc:include type="modules" name="left" style="xhtml" />
                         <div class="clearfix"></div>
                     </div>
