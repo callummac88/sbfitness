@@ -7596,7 +7596,7 @@ input:-moz-placeholder {
 }
 
 .col-logo img {
-  height: 70px;
+  height: 45px;
   margin-top: 5px;
 }
 
@@ -7604,6 +7604,10 @@ input:-moz-placeholder {
   .col-logo {
     margin-top: 12px;
     margin-left: 0;
+  }
+  .col-logo img {
+    height: 70px;
+    margin-top: 5px;
   }
 }
 
@@ -7881,6 +7885,18 @@ input:-moz-placeholder {
   font-weight: normal;
 }
 
+body.blog-page .banner-bg h1, body.blog-page .banner-bg .h2-h1 {
+  background-color: #333;
+  display: inline-block;
+  padding: 5px 40px;
+}
+
+body.about-page .banner-bg h1, body.about-page .banner-bg .h2-h1 {
+  background-color: #333;
+  display: inline-block;
+  padding: 5px 40px;
+}
+
 /* BANNER IMAGE BGS */
 body.default .banner-image-bg {
   background-image: url(/images/banners/mobile/banner-default.jpg);
@@ -7987,8 +8003,14 @@ body.default .banner-image-bg {
   body.blog-page .banner-bg {
     background: url("../images/banner/blog-banner.png") no-repeat;
     background-size: cover;
-    margin-top: 100px !important;
-    padding: 140px 0px !important;
+    margin-top: 90px !important;
+    padding: 100px 0px !important;
+  }
+  body.about-page .banner-bg {
+    background: url("../images/banner/about-banner.jpg") no-repeat;
+    background-size: cover;
+    margin-top: 90px !important;
+    padding: 100px 0px !important;
   }
 }
 
@@ -8071,8 +8093,8 @@ body.home-page .content-bg {
   background-color: #333333;
   padding: 50px 20px 50px 20px;
   color: #ffffff;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -8091,25 +8113,25 @@ body.home-page .content-bg {
 .cta-box .moduletable {
   background: silver;
   padding: 200px 0px 0px 0px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .cta-box .moduletable p {
   background: rgba(51, 51, 51, 0.9);
   color: #ffffff;
   padding: 20px;
-  font-size: 18px;
+  font-size: 15px;
   text-transform: uppercase;
 }
 
 .faqs-box .moduletable {
   background: url("../images/background/ctas/faqs-bg.jpg") no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 
 .blog-box .moduletable {
   background: url("../images/background/ctas/blog-bg.jpg") no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-position: 50% 50%;
 }
 
@@ -8148,6 +8170,10 @@ div.itemToolbar {
 @media (min-width: 992px) {
   .content-bg {
     padding: 44px 0;
+  }
+  .pricing-box .moduletable {
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
   .home-bio-bg {
     background-color: #ffffff;
@@ -8200,6 +8226,11 @@ div.itemToolbar {
 #k2Container.itemView {
   padding: 0;
   margin: 0;
+}
+
+/* RS FORM STYLING */
+.form-control {
+  padding: 8px 12px;
 }
 
 /* FOOTER */

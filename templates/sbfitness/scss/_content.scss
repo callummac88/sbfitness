@@ -38,8 +38,8 @@ body.home-page .content-bg {
     background-color:#333333;
     padding:50px 20px 50px 20px;
     color:#ffffff;
-    margin-top:50px;
-    margin-bottom:50px;
+    margin-top:20px;
+    margin-bottom:20px;
     text-align: center;
 }
 
@@ -58,24 +58,24 @@ body.home-page .content-bg {
 .cta-box .moduletable {
     background:silver;
     padding:200px 0px 0px 0px;
-    margin-bottom:50px;
+    margin-bottom:20px;
 }
 
 .cta-box .moduletable p {
     background:rgba(51,51,51,0.9);
     color:#ffffff;
     padding:20px;
-    font-size:18px;
+    font-size:15px;
     text-transform: uppercase;
 }
 
 .faqs-box .moduletable {
     background:url('../images/background/ctas/faqs-bg.jpg') no-repeat;
-    background-size:100%;
+    background-size:cover;
 }
 .blog-box .moduletable {
     background:url('../images/background/ctas/blog-bg.jpg') no-repeat;
-    background-size:100%;
+    background-size:cover;
     background-position: 50% 50%;
 }
 
@@ -116,6 +116,11 @@ div.itemToolbar {
   .content-bg {
     padding: $layer-padding-md 0;
   }
+    
+.pricing-box .moduletable {
+    margin-top:50px;
+    margin-bottom:50px;
+}
     
   .home-bio-bg {
       background-color:#ffffff;
@@ -174,4 +179,10 @@ div.itemToolbar {
 #k2Container.itemView {
   padding: 0;
   margin: 0;
+}
+
+
+/* RS FORM STYLING */
+.form-control {
+    padding: 8px 12px;
 }
