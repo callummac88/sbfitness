@@ -48,7 +48,7 @@ K2HelperUtilities::setDefaultImage($this->item, 'itemlist', $this->params);
 
 	  <?php if($this->item->params->get('catItemTitle')): ?>
 	  <!-- Item title -->
-	  <h3 class="catItemTitle">
+	  <h3 class="catItemTitle-old">
 			<?php if(isset($this->item->editLink)): ?>
 			<!-- Item edit link -->
 			<span class="catItemEditLink">

@@ -7341,7 +7341,7 @@ h2, .primary-layer-bg h3, .primary-layer-bg .lead, .primary-layer-bg .banner-bg 
 
 @media (min-width: 992px) {
   .banner-title, .h1-image-overlays, .banner-image-bg h1, .banner-image-bg .h2-h1, .banner-bg h1, .banner-bg .h2-h1, .banner-bg p.banner-title {
-    font-size: 39px !important;
+    font-size: 38px !important;
   }
   .banner-sub-title, .p-image-overlays, .banner-image-bg p, .banner-bg p.banner-sub-title {
     font-size: 25px !important;
@@ -7371,7 +7371,7 @@ h2, .primary-layer-bg h3, .primary-layer-bg .lead, .primary-layer-bg .banner-bg 
     font-size: 18px !important;
   }
   .banner-title, .h1-image-overlays, .banner-image-bg h1, .banner-image-bg .h2-h1, .banner-bg h1, .banner-bg .h2-h1, .banner-bg p.banner-title {
-    font-size: 45px !important;
+    font-size: 38px !important;
   }
   .banner-sub-title, .p-image-overlays, .banner-image-bg p, .banner-bg p.banner-sub-title {
     font-size: 26px !important;
@@ -7395,7 +7395,7 @@ h2, .primary-layer-bg h3, .primary-layer-bg .lead, .primary-layer-bg .banner-bg 
 
 @media (min-width: 1600px) {
   .banner-title, .h1-image-overlays, .banner-image-bg h1, .banner-image-bg .h2-h1, .banner-bg h1, .banner-bg .h2-h1, .banner-bg p.banner-title {
-    font-size: 47px !important;
+    font-size: 38px !important;
   }
   .banner-sub-title, .p-image-overlays, .banner-image-bg p, .banner-bg p.banner-sub-title {
     font-size: 28px !important;
@@ -8137,6 +8137,9 @@ body.home-page .content-bg {
 
 .blog-background {
   background: #F2F2F2;
+  border-left: solid 5px #ffffff;
+  border-right: solid 5px #ffffff;
+  margin-bottom: 30px;
 }
 
 .custom-itemView {
