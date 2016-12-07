@@ -151,6 +151,24 @@ unset($doc->_scripts[JURI::root(true) . '/media/jui/js/bootstrap.min.js']);
         <?php }?>
         
         
+         <?php if($this->countModules("extra-box and video-box")){ ?>
+        <div class="ctas-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 cta-box extra-box">
+                        <jdoc:include type="modules" name="extra-box" style="xhtml" />
+                    </div>
+                    <div class="col-md-6 video-box">
+                        <jdoc:include type="modules" name="video-box" style="xhtml" />
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <?php }?>
+        
+        
+        
+        
                       
         <?php if($this->countModules("blog-box and faqs-box")){ ?>
         <div class="ctas-bg">
@@ -166,6 +184,8 @@ unset($doc->_scripts[JURI::root(true) . '/media/jui/js/bootstrap.min.js']);
             </div>
         </div>
         <?php }?>
+        
+        
         
 
         <div class="content-bg <?php if(!$this->countModules("banner") && !$this->countModules('banner-with-image-bg') && !$this->countModules('slide-active')){ ?>no-banner<?php }?>">

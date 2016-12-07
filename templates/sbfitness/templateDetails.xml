@@ -34,6 +34,8 @@
         <position>pricing-right</position>
         <position>blog-box</position>
         <position>faqs-box</position>
+        <position>extra-box</position>
+        <position>video-box</position>        
         <position>left</position>
         <position>left-wide</position>
         <position>primary-layer</position>

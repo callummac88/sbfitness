@@ -78,6 +78,11 @@ body.home-page .content-bg {
     background-size:cover;
     background-position: 50% 50%;
 }
+.extra-box .moduletable {
+    background:url('../images/background/ctas/classes-bg.jpg') no-repeat;
+    background-size:cover;
+    background-position: 50% 50%;
+}
 
 .blog-background {
     background:#F2F2F2;
@@ -188,4 +193,29 @@ div.itemToolbar {
 /* RS FORM STYLING */
 .form-control {
     padding: 8px 12px;
+}
+
+.formControlLabel {
+    display:none;
+}
+.formResponsive .formHorizontal .formControls {
+    margin-left: 0px;
+}
+.rsform {
+    text-align: center;
+}
+.rsform h2 {
+    display:none;
+}
+.formResponsive input[type="text"] {
+    height: 35px;
+    width: 250px;
+}
+.formResponsive textarea {
+    width: 250px;
+}
+
+
+.footer-right .moduletable {
+    float:right;
 }

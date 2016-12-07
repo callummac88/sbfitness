@@ -7897,6 +7897,24 @@ body.about-page .banner-bg h1, body.about-page .banner-bg .h2-h1 {
   padding: 5px 40px;
 }
 
+body.classes-page .banner-bg h1, body.classes-page .banner-bg .h2-h1 {
+  background-color: #333;
+  display: inline-block;
+  padding: 5px 40px;
+}
+
+body.faqs-page .banner-bg h1, body.faqs-page .banner-bg .h2-h1 {
+  background-color: #333;
+  display: inline-block;
+  padding: 5px 40px;
+}
+
+body.contact-page .banner-bg h1, body.contact-page .banner-bg .h2-h1 {
+  background-color: #333;
+  display: inline-block;
+  padding: 5px 40px;
+}
+
 /* BANNER IMAGE BGS */
 body.default .banner-image-bg {
   background-image: url(/images/banners/mobile/banner-default.jpg);
@@ -7986,15 +8004,50 @@ body.default .banner-image-bg {
   }
 }
 
+body.home-page .banner-bg {
+  background: url("../images/banner/home-banner.jpg") no-repeat;
+  background-size: cover;
+}
+
+.moduletable.home-banner {
+  background: rgba(51, 51, 51, 0.9);
+  padding: 20px 30px 20px 30px;
+  text-align: center;
+}
+
+body.blog-page .banner-bg {
+  background: url("../images/banner/blog-banner.png") no-repeat;
+  background-size: cover;
+}
+
+body.about-page .banner-bg {
+  background: url("../images/banner/about-banner.png") no-repeat;
+  background-size: cover;
+}
+
+body.faqs-page .banner-bg {
+  background: url("../images/banner/about-banner.png") no-repeat;
+  background-size: cover;
+}
+
+body.classes-page .banner-bg {
+  background: url("../images/background/ctas/classes-bg.jpg") no-repeat;
+  background-size: cover;
+}
+
+body.contact-page .banner-bg {
+  background: url("../images/background/ctas/classes-bg.jpg") no-repeat;
+  background-size: cover;
+}
+
 /* ### BANNER IMAGES ### */
 @media (min-width: 992px) {
   body.home-page .banner-bg {
-    background: url("../images/banner/runner-high.png") no-repeat;
+    background: url("../images/banner/home-banner.jpg") no-repeat;
     background-size: cover;
     background-attachment: fixed;
   }
   .moduletable.home-banner {
-    float: right;
     background: rgba(51, 51, 51, 0.9);
     padding: 20px 30px 20px 30px;
     width: 35%;
@@ -8009,6 +8062,26 @@ body.default .banner-image-bg {
   body.about-page .banner-bg {
     background: url("../images/banner/about-banner.png") no-repeat;
     background-size: cover;
+    margin-top: 90px !important;
+    padding: 225px 0px 45px 0px !important;
+  }
+  body.faqs-page .banner-bg {
+    background: url("../images/banner/about-banner.png") no-repeat;
+    background-size: cover;
+    margin-top: 90px !important;
+    padding: 225px 0px 45px 0px !important;
+  }
+  body.classes-page .banner-bg {
+    background: url("../images/background/ctas/classes-bg.jpg") no-repeat;
+    background-size: 100%;
+    background-position: 50% 50%;
+    margin-top: 90px !important;
+    padding: 225px 0px 45px 0px !important;
+  }
+  body.contact-page .banner-bg {
+    background: url("../images/background/ctas/classes-bg.jpg") no-repeat;
+    background-size: 100%;
+    background-position: 50% 50%;
     margin-top: 90px !important;
     padding: 225px 0px 45px 0px !important;
   }
@@ -8135,6 +8208,12 @@ body.home-page .content-bg {
   background-position: 50% 50%;
 }
 
+.extra-box .moduletable {
+  background: url("../images/background/ctas/classes-bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
 .blog-background {
   background: #F2F2F2;
   border-left: solid 5px #ffffff;
@@ -8234,6 +8313,35 @@ div.itemToolbar {
 /* RS FORM STYLING */
 .form-control {
   padding: 8px 12px;
+}
+
+.formControlLabel {
+  display: none;
+}
+
+.formResponsive .formHorizontal .formControls {
+  margin-left: 0px;
+}
+
+.rsform {
+  text-align: center;
+}
+
+.rsform h2, .rsform .primary-layer-bg h3, .primary-layer-bg .rsform h3, .rsform .primary-layer-bg .lead, .primary-layer-bg .rsform .lead, .rsform .primary-layer-bg .banner-bg p, .primary-layer-bg .banner-bg .rsform p, .rsform .banner-bg .primary-layer-bg p, .banner-bg .primary-layer-bg .rsform p {
+  display: none;
+}
+
+.formResponsive input[type="text"] {
+  height: 35px;
+  width: 250px;
+}
+
+.formResponsive textarea {
+  width: 250px;
+}
+
+.footer-right .moduletable {
+  float: right;
 }
 
 /* FOOTER */

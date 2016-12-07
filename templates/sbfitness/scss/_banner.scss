@@ -139,6 +139,21 @@ body.about-page .banner-bg h1 {
     display:inline-block;
     padding:5px 40px;
 }
+body.classes-page .banner-bg h1 {
+    background-color:#333;
+    display:inline-block;
+    padding:5px 40px;
+}
+body.faqs-page .banner-bg h1 {
+    background-color:#333;
+    display:inline-block;
+    padding:5px 40px;
+}
+body.contact-page .banner-bg h1 {
+    background-color:#333;
+    display:inline-block;
+    padding:5px 40px;
+}
     
 /* BANNER IMAGE BGS */
 body.default .banner-image-bg {
@@ -238,6 +253,40 @@ body.default .banner-image-bg {
 
 
 
+body.home-page .banner-bg {
+        background:url('../images/banner/home-banner.jpg') no-repeat;
+        background-size: cover;
+ }
+ 
+    .moduletable.home-banner {
+        background:rgba(51,51,51,0.9);
+        padding: 20px 30px 20px 30px;
+        text-align: center;
+    }
+    
+      body.blog-page .banner-bg {
+    background:url('../images/banner/blog-banner.png') no-repeat;
+    background-size: cover;   
+ }
+    
+    body.about-page .banner-bg {
+    background:url('../images/banner/about-banner.png') no-repeat;
+    background-size: cover;
+ }  
+    body.faqs-page .banner-bg {
+    background:url('../images/banner/about-banner.png') no-repeat;
+    background-size: cover;
+ }  
+
+    body.classes-page .banner-bg {
+    background:url('../images/background/ctas/classes-bg.jpg') no-repeat;
+    background-size: cover;
+ }  
+    body.contact-page .banner-bg {
+    background:url('../images/background/ctas/classes-bg.jpg') no-repeat;
+    background-size: cover;
+ } 
+
 
 /* ### BANNER IMAGES ### */
 
@@ -251,13 +300,13 @@ body.default .banner-image-bg {
 @media (min-width: $screen-md-min) {
 
    body.home-page .banner-bg {
-        background:url('../images/banner/runner-high.png') no-repeat;
+        background:url('../images/banner/home-banner.jpg') no-repeat;
         background-size: cover;
         background-attachment: fixed;
  }
     
     .moduletable.home-banner {
-        float: right;
+       // float: right;
         //background:rgba(135,206,235,0.8);
         background:rgba(51,51,51,0.9);
         padding: 20px 30px 20px 30px;
@@ -279,7 +328,28 @@ body.default .banner-image-bg {
     margin-top:90px!important;
     padding:225px 0px 45px 0px!important;
  }
+    body.faqs-page .banner-bg {
+    background:url('../images/banner/about-banner.png') no-repeat;
+    background-size: cover;
+    margin-top:90px!important;
+    padding:225px 0px 45px 0px!important;
+ }
 
+    body.classes-page .banner-bg {
+    background:url('../images/background/ctas/classes-bg.jpg') no-repeat;
+    background-size: 100%;
+    background-position: 50% 50%;
+    margin-top:90px!important;
+    padding:225px 0px 45px 0px!important;
+        
+ }
+    body.contact-page .banner-bg {
+    background:url('../images/background/ctas/classes-bg.jpg') no-repeat;
+    background-size: 100%;
+    background-position: 50% 50%;
+    margin-top:90px!important;
+    padding:225px 0px 45px 0px!important;
+ }
 }
 @media (min-width: $screen-lg-min) {
  
