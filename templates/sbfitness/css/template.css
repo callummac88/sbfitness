@@ -8026,17 +8026,17 @@ body.about-page .banner-bg {
 }
 
 body.faqs-page .banner-bg {
-  background: url("../images/banner/about-banner.png") no-repeat;
+  background: url("../images/banner/faqs-banner.jpg") no-repeat;
   background-size: cover;
 }
 
 body.classes-page .banner-bg {
-  background: url("../images/background/ctas/classes-bg.jpg") no-repeat;
+  background: url("../images/banner/new-classes-banner.jpg") no-repeat;
   background-size: cover;
 }
 
 body.contact-page .banner-bg {
-  background: url("../images/background/ctas/classes-bg.jpg") no-repeat;
+  background: url("../images/banner/contact-banner.jpg") no-repeat;
   background-size: cover;
 }
 
@@ -8066,20 +8066,20 @@ body.contact-page .banner-bg {
     padding: 225px 0px 45px 0px !important;
   }
   body.faqs-page .banner-bg {
-    background: url("../images/banner/about-banner.png") no-repeat;
+    background: url("../images/banner/faqs-banner.jpg") no-repeat;
     background-size: cover;
     margin-top: 90px !important;
     padding: 225px 0px 45px 0px !important;
   }
   body.classes-page .banner-bg {
-    background: url("../images/background/ctas/classes-bg.jpg") no-repeat;
+    background: url("../images/banner/new-classes-banner.jpg") no-repeat;
     background-size: 100%;
     background-position: 50% 50%;
     margin-top: 90px !important;
     padding: 225px 0px 45px 0px !important;
   }
   body.contact-page .banner-bg {
-    background: url("../images/background/ctas/classes-bg.jpg") no-repeat;
+    background: url("../images/banner/contact-banner.jpg") no-repeat;
     background-size: 100%;
     background-position: 50% 50%;
     margin-top: 90px !important;
@@ -8271,9 +8271,9 @@ div.itemToolbar {
   .testimonial-bg {
     background: url("../images/background/testimonial-bg.png") no-repeat black;
     background-attachment: fixed;
-    background-size: cover;
     padding-top: 110px;
     padding-bottom: 110px;
+    background-position: 50% 360%;
   }
   .moduletable.testimonial {
     width: 30%;

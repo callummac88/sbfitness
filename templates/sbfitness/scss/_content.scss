@@ -145,9 +145,9 @@ div.itemToolbar {
     .testimonial-bg {
        background:url('../images/background/testimonial-bg.png') no-repeat black;
         background-attachment: fixed;
-        background-size:cover;
         padding-top:110px;
         padding-bottom:110px;
+        background-position:50% 360%;
     }
     .moduletable.testimonial {
         width:30%;
